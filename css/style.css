@@ -1,23 +1,20 @@
 html,
 body,
 header,
-#intro
-{
-    height: 100%;  
+#intro {
+  height: 100%;
 }
 
-#intro
-{
-    background: url("../img/lille2.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;     
+#intro {
+  background: url("../img/lille2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.navbar:not(.top-nav-collapse) 
-{
-    background: transparent !important;
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
 }
 
 /*Sticky NavBar
@@ -27,109 +24,89 @@ nav .shrink
    
 }*/
 
-
-.center
-{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 250px;
-    height: 250px;
-    margin-top: 40px;
-    margin-bottom: -100px;
-    box-sizing: border-box;
-    border: 15px solid rgba(0,0,0,.8);
-    border-radius: 50%;
+.center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  margin-top: 40px;
+  margin-bottom: -100px;
+  box-sizing: border-box;
+  border: 15px solid rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
 }
-.circle1
-{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #000000 #aacc2e #000000 #aacc2e;
-    box-sizing: border-box;
-    animation: animateCircle1 17s linear infinite;
-    background: #262626;
+.circle1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000000 #aacc2e #000000 #aacc2e;
+  box-sizing: border-box;
+  animation: animateCircle1 17s linear infinite;
+  background: #262626;
 }
-.circle2
-{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: calc(100% - 40px);
-    height: calc(100% - 40px);
-    border-radius: 50%;
-    border: 5px dashed rgb(181, 194, 66);   
-    animation: animateCircle2 17s linear infinite;
+.circle2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  border-radius: 50%;
+  border: 5px dashed rgb(181, 194, 66);
+  animation: animateCircle2 17s linear infinite;
 }
-.circle3
-{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: calc(100% - 40px);
-    height: calc(100% - 40px);
-    border-radius: 50%;
-    background: url("../img/photo.jpg");
-    background-size: cover;
+.circle3 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  border-radius: 50%;
+  background: url("../img/photo.jpg") no-repeat center;
+  background-size: cover;
 }
-@keyframes animateCircle1
-{
-    0%
-    {
-        transform: rotate(0deg);
-    }
-    100%
-    {
-        transform: rotate(360deg);
-    }
-}@keyframes animateCircle2
-{
-    0%
-    {
-        transform: rotate(360deg);
-    }
-    100%
-    {
-        transform: rotate(0deg);
-    }
+@keyframes animateCircle1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animateCircle2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
-
-
-#describ
-{
-    bottom: -240px;
-    margin: auto;
-    font-family: 'Pacifico', fantasy;
+#describ {
+  bottom: -240px;
+  margin: auto;
+  font-family: "Pacifico", fantasy;
 }
 
-
-#lign
-{
-    width: 50%;
+#lign {
+  width: 50%;
 }
 
-
-li
-{
-    list-style: none;
-    text-align: left;
+li {
+  list-style: none;
+  text-align: left;
 }
 
-#photo1
-{
-    background: url("../img/pc.png");
+#photo1 {
+  background: url("../img/pc.png");
 }
 
-#photo2
-{
-    background: url("../img/lille4.png");
+#photo2 {
+  background: url("../img/lille4.png");
 }
-
 
 /*#photo3
 {
@@ -141,170 +118,158 @@ li
     background: url("../img/php.png");
 }*/
 
-section #competences .card-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*background: #2e2e2e;*/
+section #competences .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background: #2e2e2e;*/
 }
 
-section #competences .card-body .skills
-{
-    position: relative;
-    display: flex;
-    margin: 20px 0;
-    padding: 24px 10px 18px;
-    /*background: linear-gradient(#616161 0%, #333 10%, #222);*/
-    /*border-radius: 8px;*/
-    overflow: hidden;
-    /*border: 2px solid #000;*/
-    transition: 0.5s;
+section #competences .card-body .skills {
+  position: relative;
+  display: flex;
+  margin: 20px 0;
+  padding: 24px 10px 18px;
+  /*background: linear-gradient(#616161 0%, #333 10%, #222);*/
+  /*border-radius: 8px;*/
+  overflow: hidden;
+  /*border: 2px solid #000;*/
+  transition: 0.5s;
 }
 
-section #competences .card-body .skills:before
-{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    /*background: rgba(255, 255, 255, .1);*/
-    z-index: 10;
+section #competences .card-body .skills:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  /*background: rgba(255, 255, 255, .1);*/
+  z-index: 10;
 }
 
-.card-body .skills .name
-{
-    position: relative;
-    width: 110px;
-    text-align: right;
-    /*color: #000;*/
-    margin-top: -2px;
-    text-transform: uppercase;
+.card-body .skills .name {
+  position: relative;
+  width: 110px;
+  text-align: right;
+  /*color: #000;*/
+  margin-top: -2px;
+  text-transform: uppercase;
 }
 
-.card-body .skills .value
-{
-    position: relative;
-    width: 40px;
-    text-align: left;
-    color: #000;
-    margin-top: -2px;
-    text-transform: uppercase;
+.card-body .skills .value {
+  position: relative;
+  width: 40px;
+  text-align: left;
+  color: #000;
+  margin-top: -2px;
+  text-transform: uppercase;
 }
 
-.card-body .skills .percent
-{
-    position: relative;
-    width: calc(100% - 150px);
-    height: 20px;
-    margin: 0 10px;
-    border-radius: 10px;
-    background: #f7f2f2;
-    /*box-shadow: inset 0 0 10px #000;*/
-    overflow: hidden;
+.card-body .skills .percent {
+  position: relative;
+  width: calc(100% - 150px);
+  height: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background: #f7f2f2;
+  /*box-shadow: inset 0 0 10px #000;*/
+  overflow: hidden;
 }
 
-.card-body .skills .percent .progress
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;
-    height: 100%;
-    border-radius: 10px;
-    background: #fff;
-    /*box-shadow: inset 0 0 2px #000;*/
-    animation: animate 4s ease-in-out forwards;
-    background: linear-gradient(45deg, #e9ff1ffb, rgb(87, 183, 58));   
+.card-body .skills .percent .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  background: #fff;
+  /*box-shadow: inset 0 0 2px #000;*/
+  animation: animate 4s ease-in-out forwards;
+  background: linear-gradient(45deg, #e9ff1ffb, rgb(87, 183, 58));
 }
 
-@keyframes animate
-{
-    from
-    {
-        width: 0;
-    }
+@keyframes animate {
+  from {
+    width: 0;
+  }
 }
 
-
- /* Slideshow container */
-.slideshow-container 
-{
-    position: relative;
-    background: #f1f1f1f1;
-    
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
 }
-  
+
 /* Slides */
-.mySlides 
-{
-    display: none;
-    padding: 80px;
-    text-align: center;
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
 }
-  
+
 /* Next & previous buttons */
-.prev, .next 
-{
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
-  
+
 /* Position the "next button" to the right */
-.next 
-{
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover
-{
-    background-color: rgba(0,0,0,0.8);
-    color: white;
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 /* The dot/bullet/indicator container */
-.dot-container
-{
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
 }
 
 /* The dots/bullets/indicators */
-.dot
-{
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
 /* Add a background color to the active dot/circle */
-.active, .dot:hover
-{
-    background-color: #717171;
+.active,
+.dot:hover {
+  background-color: #717171;
 }
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;}
+q {
+  font-style: italic;
+}
 
 /* Add a blue color to the title */
-.title {color: cornflowerblue;} 
+.title {
+  color: cornflowerblue;
+}
